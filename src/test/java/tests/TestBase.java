@@ -16,10 +16,9 @@ public class TestBase {
     public static void setConfig() {
         Configuration.baseUrl = "https://bfs.su";
         Configuration.pageLoadStrategy = "eager";
-
-        String browser = System.getProperty("browser", "chrome");
-        String browserVersion = System.getProperty("browserVersion", "128.0");
-        String browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
     }
 
     @BeforeEach

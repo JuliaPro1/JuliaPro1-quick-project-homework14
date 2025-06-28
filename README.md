@@ -67,7 +67,7 @@ ____
 ## <img alt="Jenkins" height="25" src="media/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/35-julpro-hw14/)</a>
 ____
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/35-julpro-hw14/"><img src="media/jenkins_build.png" alt="Jenkins" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/35-julpro-hw14/"><img src="media/jenkins_build.PNG" alt="Jenkins" width="950"/></a>  
 </p>
 
 

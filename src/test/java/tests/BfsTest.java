@@ -8,15 +8,15 @@ import pages.MainPage;
 
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
 
+@Tag("bfs")
+@Feature("Главная страница сайта https://bfs.su")
+@Story("Проверка главной страницы сайта")
+@Severity(SeverityLevel.MINOR)
+@Owner("Прохорова Юлия")
 public class BfsTest extends TestBase {
     MainPage mainPage = new MainPage();
 
     @Test
-    @Tag("bfs")
-    @Feature("Главная страница сайта https://bfs.su")
-    @Story("Проверка главной страницы сайта")
-    @Severity(SeverityLevel.MINOR)
-    @Owner("Прохорова Юлия")
     @DisplayName("Проверка CookiePopup")
     void cookiePopupTest() {
         step("Открыть главную страницу", () -> {
@@ -28,11 +28,6 @@ public class BfsTest extends TestBase {
     }
 
     @Test
-    @Tag("bfs")
-    @Feature("Главная страница сайта https://bfs.su")
-    @Story("Проверка главной страницы сайта")
-    @Severity(SeverityLevel.MINOR)
-    @Owner("Прохорова Юлия")
     @DisplayName("Проверка отображения табов")
     void tabsShouldBeVisibleTest() {
         step("Открыть главную страницу", () -> {
@@ -53,11 +48,6 @@ public class BfsTest extends TestBase {
     }
 
     @Test
-    @Tag("bfs")
-    @Feature("Главная страница сайта https://bfs.su")
-    @Story("Проверка главной страницы сайта")
-    @Severity(SeverityLevel.MINOR)
-    @Owner("Прохорова Юлия")
     @DisplayName("Проверка отображения формы ContactUs")
     void checkContactUsFormIsVisibleTest() {
         step("Открыть главную страницу", () -> {
@@ -69,11 +59,6 @@ public class BfsTest extends TestBase {
     }
 
     @Test
-    @Tag("bfs")
-    @Feature("Главная страница сайта https://bfs.su")
-    @Story("Проверка главной страницы сайта")
-    @Severity(SeverityLevel.MINOR)
-    @Owner("Прохорова Юлия")
     @DisplayName("Проверка валидации формы ContactUs")
     void checkValidationFormTest() {
         step("Открыть главную страницу", () -> {
@@ -94,11 +79,6 @@ public class BfsTest extends TestBase {
     }
 
     @Test
-    @Tag("bfs")
-    @Feature("Главная страница сайта https://bfs.su")
-    @Story("Проверка главной страницы сайта")
-    @Severity(SeverityLevel.MINOR)
-    @Owner("Прохорова Юлия")
     @DisplayName("Проверка перевода на русскую версию")
     void checkRussianVersionTest() {
         step("Открыть главную страницу", () -> {
